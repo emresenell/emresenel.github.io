@@ -1,0 +1,25 @@
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css');
+
+/* Özel stiller */
+#feedback {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+#dog-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#sad-face {
+    font-size: 50px;
+}
